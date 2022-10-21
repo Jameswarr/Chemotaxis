@@ -20,8 +20,8 @@ class Walker
   {
     fill(0, 255, 0);
     stroke(0, 255, 0);
-    ellipse(myX,myY,30,40);
-    ellipse(myX,myY, 20,20);
+    circle(myX,myY,30);
+    circle(myX,myY, 20);
   }
 }
 
