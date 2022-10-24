@@ -30,7 +30,7 @@ Walker [] hillbillies = {new Walker(), new Walker(), new Walker()};
 Walker [] saviors;
 void setup()
 { 
-  size(300,300);
+  size(400,400);
   background(0);
   rick = new Walker();
   saviors = new Walker[100];
@@ -55,7 +55,7 @@ void setup()
       saviors[i].show();
       fill(0,255,0);
       noStroke();
-      square(0,250,300);
+      rect(0,250,400,200);
       
     }
   }
